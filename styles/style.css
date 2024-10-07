@@ -1,0 +1,78 @@
+/* Outfit Font Family  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Main colors */
+:root {
+    --White: hsl(0, 0%, 100%);
+    
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Slate-300);
+    font-family: "Outfit", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+main {
+    background-color: var(--White);
+    max-width: 19rem;
+    max-height: 31rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 59% 41%;
+    text-align: center;
+    row-gap: 5px;
+    border-radius: 20px;
+    margin: 1rem;
+}
+/* QR Image  */
+main img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 28px;
+}
+
+/* QR Iformation  */
+main section:last-of-type {
+    width: 100%;
+    display: grid;
+
+}
+main section h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 1.2rem;
+    width: 100%;
+}
+
+main section p {
+    padding: 0 1.5rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.attribution {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+}

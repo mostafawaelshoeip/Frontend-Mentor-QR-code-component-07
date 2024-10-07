@@ -1,8 +1,9 @@
 ``` 
-My challenge 06 with Frontend Mentor.
 
-This is a resposive product preview card.
+My challenge 07 with Frontend Mentor.
 
-Created on 6/10/2024
+This is a resposive QR preview card.
+
+Created on 7/10/2024
 
 ```
